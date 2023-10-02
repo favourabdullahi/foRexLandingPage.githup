@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+.main{
+    position: fixed;
+}
+.container{
+    display: flex;
+    gap: 20PX;
+    height: 7.5rem;
+    width:120rem;
+    background-color: rgb(36, 36, 37);
+    padding: 2rem;
+    color: antiquewhite;
+
+}
+
+#logo{
+    width:20rem;
+    height: 100%;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    width: 15%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100rem;
+    padding: 20px;
+    background-color: rgb(228, 47, 47);
+    height: 4rem;
+    position: fixed;
+
+}
+.navbar-item{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 30rem;
+    list-style:none ;
+
+}
+
+.box-1{
+    display: flex;
+    width: max-content;
+    height: auto;
+    gap: 3rem;
+    
+    align-items: center;   
+    text-transform: uppercase;
+}
+.box-item{
+    color: blue;
+}
+
+.box-1 span{
+    
+    justify-self: baseline;
+    opacity: 50%;
+    font-size: 0.5ren;
+}
+.box-1 li{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    height:inherit ;
+
+    gap: 0.3rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.box-2{
+    display: flex;
+}
+.box-2 form{
+
+    display: flex;
+    gap: 1rem;
+}
+.button{
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(32, 134, 250);
+    border: 0;
+    gap: 2;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(236, 233, 228);
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.newsletter{
+    height: 3rem;
+    width:6rem;
+    backgroun2d-color: black;
+    border-inline-end-color:  rgb(32, 134, 250);
+    border-inline-start-color: rgb(32, 134, 250); 
+    border-block-end-color: rgb(32, 134, 250) ;
+    border-block-start-color: rgb(32, 134, 250) ;
+
+}
+#showcase{
+    background-image: url(images/work.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:100px;
+    padding-top:200px;
+    
+}
+.container-1{
+    
+    width: 6rem;
+    background-color: rgb(7, 7, 8); 
+    color: aliceblue;
+    display:grid;
+    height: 5rem;
+    background-color: #060607;
+    margin-bottom: 230px;
+    padding: 10px;
+    margin-left: 40px;
+    
+}
+footer{
+    background-color: #1a1a1b;
+    height: 4rem;
+    color: antiquewhite;
+    
+}
